@@ -1,0 +1,16 @@
+{
+  "name": "test_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --record --key [record key] -b chrome --reporter dot --ci-build-id [unique string] --parallel --project ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  }
+}
